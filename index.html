@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIXGeneral:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Tamil MN:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Charm:wght@400&display=swap"
+    />
+
+
+
+  </head>
+  <body>
+    <script>
+        function randoword(){
+            var word=['RUHacks', 'rutgers', 'python', 'html', 'css', 'java', 'javascript',];
+            var para=document.getElementById("rand");
+            para.innerHTML=word[Math.floor(Math.random()*word.length)];
+        }
+    </script>
+    <div class="web-1920-1">
+      <div class="web-1920-1-child"></div>
+      <div id= "rand" class="random-word">(Random Word)</div>
+      <div class="web-1920-1-item"></div>
+      <button onclick="randoword();">New Word</button>
+      
+      <div class="aslingo-parent">
+        <div class="aslingo">
+          <span><span class="a">A</span></span
+          ><span>S</span><span class="l">L</span><span class="ingo">ingo</span>
+        </div>
+        <img class="download-icon" alt="" src="public/download@2x.png" />
+      </div>
+      <div class="web-1920-1-inner"></div>
+      <div class="practice">Practice</div>
+      <div class="about">About</div>
+      <div class="guide"><p class="guide1">Guide</p></div>
+    </div>
+  </body>
+</html>
